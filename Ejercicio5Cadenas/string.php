@@ -8,7 +8,7 @@
         form {
             margin: 0 auto;
             width: 80%;
-            height: 450px;
+            height: 650px;
             background-image: url(./img.jpg);
             background-size: cover;
             margin-bottom: 25px;
@@ -64,12 +64,12 @@
             echo '<h3>Introduzca tu cadena</h3>';
             echo '<textarea name="text" id="" cols="15" rows="10"></textarea>';
             echo '<div>';
-            echo '    <textarea class="sus" name="SUSTITUTA" id="" cols="30" rows="10">Ponga aqui la palabra por la que sustituir</textarea>';
             echo '    <input type="radio" name="type" value="busca" checked> Busca<br>';
             echo '    <input type="radio" name="type" value="sustituye"> Sustituye<br>';
             echo '    <input type="radio" name="type" value="elimina"> Elimina <br>';
             echo '    <textarea class="word" name="word" id="" cols="30" rows="10"></textarea>';
             echo '    <input type="submit" name="ENV">';
+            echo '    <textarea class="sus" name="SUSTITUTA" id="" cols="30" rows="10">Ponga aqui la palabra por la que sustituir</textarea>';
             echo '</div>>';
             echo '</form>';
         }
@@ -99,7 +99,7 @@
             echo '    <input type="radio" name="type" value="elimina"> Elimina <br>';
             echo '    <textarea class="word" name="word" id="" cols="30" rows="10"></textarea>';
             echo '    <input type="submit" name="ENV">';
-            echo '    <textarea name="SUSTITUTA" id="" cols="30" rows="10">Ponga aqui la palabra por la que sustituir</textarea>';
+            echo '    <textarea class="sus" name="SUSTITUTA" id="" cols="30" rows="10">Ponga aqui la palabra por la que sustituir</textarea>';
             echo '</div>>';
             echo '</form>';
             echo "<div class='salida'>$string</div>";

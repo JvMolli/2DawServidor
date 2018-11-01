@@ -28,7 +28,6 @@
 </head>
 <body>
     <div>
-
     <form action="upload.php" method="post" ENCTYPE="multipart/form-data">
         <label for="">Nombre</label>
         <input type="text" name="nombre"><br><br>
