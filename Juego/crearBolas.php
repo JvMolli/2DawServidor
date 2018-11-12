@@ -1,5 +1,4 @@
 <?php
-
 $x=190;
 $y=185;
 $bingoImg=imagecreatefromjpeg('./Bingo/bolas.jpg');
@@ -47,7 +46,6 @@ function createBolas($x, $y, $bingoImg){
     return $bolas;
 }
 
-
 function getBolas($num, $bolas){
 
     //shuffle($bolas);
@@ -55,14 +53,11 @@ function getBolas($num, $bolas){
     return $bolas[$num];
 
 }
+// $num=rand ( 0 , 9 );
+// $pepe=createBolas($x,$y,$bingoImg);
+// $paco=getBolas($num,$pepe);
 
-$num=rand ( 0 , 9 );
-$pepe=createBolas($x,$y,$bingoImg);
-$paco=getBolas($num,$pepe);
-
-echo $paco;
-echo '<a href="Bingo.php"><button>Otra Bola</button></a>';
-
-
+// echo $paco;
+// echo '<a href="Bingo.php"><button>Otra Bola</button></a>';
 
 ?>
