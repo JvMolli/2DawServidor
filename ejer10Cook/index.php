@@ -47,30 +47,30 @@ require('./cook.php');
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <?= colorFondo($configuracion["fondo"])?>
-    <?= fuente($configuracion["fuente"])?>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <?= colorFondo($configuracion["fondo"])?>
+  <?= fuente($configuracion["fuente"])?>
 </head>
 
 <body>
-    <form action="index.php" method="post">
-        <span>Seleccione idioma</span>
+  <form action="index.php" method="post">
+    <span>Seleccione idioma</span>
 
-        <select name="idioma" id="">
-            <option value="Español">Español</option>
-            <option value="Ingles">Ingles</option>
-        </select>
-        <br><br>
-        <span> Color de Fuente </span>
-        <input type="color" name="fuente">
-        <br><br>
-        <span> Color de Fondo </span>
-        <input type="color" name="fondo">
-        <br><br>
-        <input type="submit" value="Ok">
+    <select name="idioma" id="">
+      <option value="Español">Español</option>
+      <option value="Ingles">Ingles</option>
+    </select>
+    <br><br>
+    <span> Color de Fuente </span>
+    <input type="color" name="fuente">
+    <br><br>
+    <span> Color de Fondo </span>
+    <input type="color" name="fondo">
+    <br><br>
+    <input type="submit" value="Ok">
 
     <?php
       
@@ -87,12 +87,12 @@ require('./cook.php');
            </p>
           </center> ";
       }
-      
-    ?>        
-       
+      header ("Cache-Control: no-cache, must-revalidate");
+    ?>
 
 
-    </form>
+
+  </form>
 
 </body>
 

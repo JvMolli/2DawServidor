@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "titulo": "Alfa Romeo Brera",
+    "marca": "alfa",
+    "modelo": "gt",
+    "motor": "1000",
+    "matricula": "8833fgg",
+    "image": "brera.jpg",
+    "puertas": "3",
+    "tipo": "a"
+  },
+  {
+    "id": 1,
+    "titulo": "Alfa Romeo Brera",
+    "marca": "alfa",
+    "modelo": "gt",
+    "motor": "1000",
+    "matricula": "8833fgg",
+    "image": "brera.jpg",
+    "puertas": "3",
+    "tipo": "a"
+  },
+  {
+    "id": 1,
+    "titulo": "VENDO BMW",
+    "marca": "bmw",
+    "modelo": "x5",
+    "motor": "1005",
+    "matricula": "8833fgg",
+    "image": "logo.jpg",
+    "puertas": "7",
+    "tipo": "a"
+  },
+  {
+    "id": 1,
+    "titulo": "VENDO BMW",
+    "marca": "alfa",
+    "modelo": "gt",
+    "motor": "1000",
+    "matricula": "8833fgg",
+    "image": "logo.jpg",
+    "puertas": "1",
+    "tipo": "a"
+  },
+  {
+    "id": 1,
+    "titulo": "VENDO BMW 5555",
+    "marca": "alfa",
+    "modelo": "gt",
+    "motor": "1000",
+    "matricula": "8833fgg",
+    "image": "logo.jpg",
+    "puertas": "1",
+    "tipo": "a"
+  },
+  {
+    "id": 1,
+    "titulo": "QWERTYUIOPFDSDFGHJKL",
+    "marca": "alfa",
+    "modelo": "gt",
+    "motor": "1000",
+    "matricula": "8833fgg",
+    "image": "logo.jpg",
+    "puertas": "1",
+    "tipo": "a"
+  }
+]

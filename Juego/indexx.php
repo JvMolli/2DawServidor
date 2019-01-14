@@ -32,6 +32,8 @@
         padding: 25px;
       }
     </style>
+
+    <script></script>
   </head>
   <body>
     <img src="Bingo.gif" alt="" />
@@ -39,7 +41,7 @@
       <h1>Jugador 1</h1>
       <table id="jugador1">
         <tr>
-          <td onclick="this.style.backgroundColor = 'Red';">5</td>
+          <td style="background-color: red">5</td>
           <td onclick="this.style.backgroundColor = 'Red';">11</td>
           <td onclick="this.style.backgroundColor = 'Red';">13</td>
         </tr>

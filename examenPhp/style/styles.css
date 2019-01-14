@@ -1,0 +1,19 @@
+.content {
+  width: 770px;
+  margin: 0 auto;
+  content: center;
+}
+.divReg {
+}
+.formReg {
+  padding: 10%;
+  background-color: aqua;
+  color: darkblue;
+}
+
+input {
+  margin-top: 10px;
+}
+select {
+  margin-top: 10px;
+}

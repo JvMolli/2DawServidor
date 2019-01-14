@@ -1,0 +1,20 @@
+[
+  [1, "camiseta", "prenda de caballero", "00001.jpg", 18],
+  [2, "pegatina", "utilizada para prendas de vestir", "00002.jpg", 5.9],
+  [3, "taza", "utilizada para bebidas calientes", "00003.jpg", 20],
+  [4, "neopreno", "utilizado para practica de surf", "00004.jpg", 350],
+  [
+    5,
+    "gancho peque\u00f1o",
+    "Este gancho especializado te sacar\u00e1 de los lugares m\u00e1s estrechos. Especialmente dise\u00f1ado para la portabilidad y el sigilo .Tenga en cuenta Que este gancho viene con un l\u00edmite de peso",
+    "00005.jpg",
+    225
+  ],
+  [
+    6,
+    "gancho grande ",
+    "Gran versi\u00f3n de nuestro gancho de ataque y ser\u00e1 seguro de transportar",
+    "00006.jpg",
+    590
+  ]
+]

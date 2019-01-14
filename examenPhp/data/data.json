@@ -1,0 +1,29 @@
+[
+  {
+    "nombre": "Jaime",
+    "apellidos": "Mollinedo GIlabert",
+    "sexo": "masculino",
+    "edad": "33",
+    "telefono": "3333333333",
+    "imagen": "jaime.jpeg",
+    "contrase\u00f1a": "1234567"
+  },
+  {
+    "nombre": "Andres",
+    "apellidos": "pepetter",
+    "sexo": "masculino",
+    "edad": "33",
+    "telefono": "999999999",
+    "imagen": "foto.png",
+    "contrase\u00f1a": "1234567"
+  },
+  {
+    "nombre": "Maksss",
+    "apellidos": "Dudar PEREZ",
+    "sexo": "masculino",
+    "edad": "19",
+    "telefono": "123456712",
+    "imagen": "maks.jpg",
+    "contrase\u00f1a": "1234567"
+  }
+]

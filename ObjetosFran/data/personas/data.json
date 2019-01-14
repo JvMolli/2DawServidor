@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "nombre": "Jaime",
+    "apellidos": "Mollinedo GIlabert",
+    "sexo": "masculino",
+    "edad": "30",
+    "telefono": "3333333333",
+    "imagen": "logo.jpg",
+    "contrase\u00f1a": "1234567"
+  },
+  {
+    "id": "2",
+    "nombre": "Andres",
+    "apellidos": "Dudar PEREZ",
+    "sexo": "masculino",
+    "edad": "44",
+    "telefono": "1234567890",
+    "imagen": "logo.jpg",
+    "contrase\u00f1a": "1234567"
+  }
+]

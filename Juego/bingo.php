@@ -35,11 +35,15 @@
         } 
       
     </style>
+        
+    <script>
+      let bola = <?= $numBola ?>
+    </script>
   </head>
   <body>
   <center>    
     <img src="Bingo.gif" alt="" />
-<center>   
+  <center>   
   <?php
         require('./crearBolas.php');
         require('./cartones.php');
@@ -55,12 +59,6 @@
             $_SESSION["jugador2"] = array(6,7,16,22,29,30,34,40,46,50,54,66,71,81,85);
             $partida=array();
         }
-
-
-        // print_r($_SESSION["jugador1"]);
-        // echo "<br><br><br>";
-        // print_r($_SESSION["jugador2"]);
-        // echo "<br><br><br>";
 
         $num=rand ( 0 , 9 );
         $num2=rand ( 0 , 9 );
